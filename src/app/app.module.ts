@@ -7,6 +7,8 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { MenuComponent } from './menu/menu.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     HeroesComponent,
     HeroDetailComponent,
     SignUpComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
