@@ -9,6 +9,9 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { MenuComponent } from './menu/menu.component';
 import { AppRoutingModule } from './app-routing.module';
+import { HeroFilmsComponent } from './hero-films/hero-films.component';
+import { HoverDirective } from './hover.directive';
+import { ShowMoviesDirective } from './show-movies.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,10 @@ import { AppRoutingModule } from './app-routing.module';
     HeroDetailComponent,
     SignUpComponent,
     UserProfileComponent,
-    MenuComponent
+    MenuComponent,
+    HeroFilmsComponent,
+    HoverDirective,
+    ShowMoviesDirective
   ],
   imports: [
     BrowserModule,
